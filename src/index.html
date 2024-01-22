@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/global.css">
+</head>
+<body>
+    <div class="h-screen flex flex-col justify-between">
+        <header class="flex justify-between items-center p-5">
+            <div id="brandIcon" class="brand"></div>
+            <nav class="flex gap-5 bg-slate-200 px-6 py-2 rounded-full">
+                <div>Home</div>
+                <div>About Me</div>
+                <div>Resume</div>
+            </nav>
+            <div>Contact</div>
+        </header>
+    
+        <main class="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-4xl m-auto">
+            <div class="card bg-cover bg-center" style="background-image: url('./public/aerith-2.png');">
+            </div>
+            <div class="card md:col-span-2 flex flex-col justify-center gap-3">
+                <div class="flex items-center gap-3">
+                    <h2>Hello, I'm Aerith G.</h2>
+                    <div class="flex items-center gap-2 text-sm font-medium text-emerald-800 bg-emerald-100 border border-emerald-500 rounded-full px-2 py-1 w-fit">
+                        <div>Open to Work</div>
+                        <div class="w-3 h-3 rounded-full bg-emerald-400 animate-pulse"></div>
+                    </div>
+                </div>
+                <p>Aerith is the last of the Cetra, an ancient race with powerful magical abilities, and so the Shinra Electric Power Company hunts her throughout her life, seeking to exploit her powers. She meets Cloud Strife in Midgar, and the two become close, leading her to join his quest to fight Shinra and hunt down Sephiroth. Aerith is upbeat, carefree, and joyful, being flirtatious towards Cloud and compassionate towards others.</p>
+            </div>
+            <div class="card md:col-span-2 flex flex-col justify-center space-y-2">
+                <h2>Shall i keep you in the loop?</h2>
+                <p>Content includes arcticles, easely access to products and ongoing learning</p>
+                <input type="email" placeholder="Email address">
+                <button id="confettiBtn">Subscribe</button>
+            </div>
+            <a href="https://finalfantasy.fandom.com/wiki/Aerith_Gainsborough" target="_blank">
+                <div class="card p-0 flex items-center justify-center overflow-hidden">
+                    <img src="./public/aerith.png" class="object-cover scale-125 hover:scale-150 hover:-rotate-3 transition duration-300" alt="">
+                </div>
+            </a>
+        </main>
+    
+        <footer class="text-center p-5">Made by Adil Raja ✅</footer>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
